@@ -1,0 +1,299 @@
+%-------------------------
+% Resume in Latex
+% Author : Sinesh Kumar
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%  mine 
+\usepackage{fontawesome}
+
+
+% 
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Sinesh Kumar} \\ \vspace{10pt}
+    % \faPhone 
+    \href{tel:9431008678}{ (+91) 94310-08678} $|$ \smallskip \href{mailto:SineshCSE@gmail.com}{\underline{SineshCSE@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/sineshkumar}{\underline{linkedin.com/in/SineshKumar}} $|$
+    \href{https://github.com/SineshX}{\underline{Github.com/SineshX}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {I. K. Gujral Punjab Technical University}{Mohali, Punjab}
+      {Bachelor of Technology in Computer Science and Engineering}{Expected Jun 2023}
+          \resumeItemListStart
+            \resumeItem{GPA: 8.79/10 (Till 5th Sem)}
+            % \resumeItem{Class Representative for 4 years }
+            % \resumeItem{In top 3 student throughout the course }
+            % \resumeItem{Presedient of Coding Club}
+            % \resumeItem{Student Co-ordinator of Trainning and Placement Cell}
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Python Developer}{Feb 2022 – Mar 2022}
+      {Rivan Solutions}{Telangana, IN}
+      \resumeItemListStart
+        \resumeItem{Built scripts for scraping data from website like Clinical Trials,DrugBank to store in SQL Database.}
+        \resumeItem{learnt and implemented multiple python libraries : Beautifulsoup, requests, Selenium and multithreading  }
+        % https://www.rivan.in
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Student Ambassador }{Jul 2020 – Jan 2021}
+    %   {Entrepreneurship-Cell IIT BOMBAY }{Mohali, Punjab}
+    %   \resumeItemListStart
+    %     \resumeItem{Got the chance to  enhance  my presentation skill}
+    %     \resumeItem{Worked with  a team to learn Office Experience and Networking}
+    %     \resumeItem{Get to know about Git,DevOps and Project Management}
+    %   \resumeItemListEnd
+      
+    % \resumeSubheading
+    %   {Role 2}{November 2021 – Present}
+    %   {Company 2}{Melbourne, VIC}
+    %   \resumeItemListStart
+    %     \resumeItem{Job description/Award/Achievement 1}
+    %     \resumeItem{Job description/Award/Achievement 2}
+    %     \resumeItem{Job description/Award/Achievement 3}
+    %   \resumeItemListEnd
+      
+     
+    \resumeSubHeadingListEnd
+
+%
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      { \href{https://findev-me.herokuapp.com}{\textbf{Find Dev }} $|$ \emph{Django, Python, SQL, AWS}}{Jan 2022 -- Jun 2022}
+          \resumeItemListStart
+            \resumeItem{An interactive platform for Developes and Recruiters to Find Dev a/c to Skills, Technologies and Projects.  }
+            \resumeItem{Group project : Implemented Django Auth and performed \textbf{CRUD} operations on PostgreSQL database. }
+            % JINGA,
+            \resumeItem{Deployed in cloud and learned about AWS EC2, Elastic Beanstalk, S3 and Herouku.}
+            % \resumeItem{Improved UI and added custom CSS to make site responsive.}
+            
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        { \href{https://github.com/SineshX/tdict}{\textbf{Terminal Dictionary}} $|$ \emph{ Python, shell script }}{Oct 2021 -- Dec 2021}
+        \resumeItemListStart
+          \resumeItem{ A Terminal Based Dictionary to search meaning inside terminal of VS code or powershell .}
+          \resumeItem{Improved UI and added feature of synonym and example of the word.}
+          \resumeItem{Contributed to Tdict project on Github.}
+        \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %   { \href{https://github.com/SineshX/InputLock}{\textbf{InputLock}} $|$ \emph{ Python }}{July 2021 -- Present}
+      %   \resumeItemListStart
+      %     \resumeItem{This script can lock keyboard and mouse input.}
+      %     \resumeItem{Implementation of Threading module in python.}
+      %   \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     { \href{https://github.com/SineshX/NO-AFK}{\textbf{Anti AFK bot }} $|$ \emph{ Python }}{April 2021 -- Present}
+      %     \resumeItemListStart
+      %       \resumeItem{A bot to play VALORANT when I am away from keyboard.}
+      %       \resumeItem{Auto focus on Game window to Play and Chat as well.}
+      %     \resumeItemListEnd
+
+      
+%  sample 
+      % \resumeProjectHeading
+      %     {\textbf{Project Title 2} $|$ \emph{Technologies used}}{June 2021 -- Present}
+      %     \resumeItemListStart
+      %       \resumeItem{Project Description 1}
+      %       \resumeItem{Project Description 2}
+      %     \resumeItemListEnd
+
+      \resumeProjectHeading
+          { \href{https://SineshX.github.io}{\textbf{Portfolio Website}} $|$ \emph{ HTML, CSS }}{Dec 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{A place to Showcase my work and experience. }
+            \resumeItem{I also write blog sometimes.}
+          \resumeItemListEnd
+      
+      \vspace{0.5em}
+      For more projects, visit my  \href{https://github.com/SineshX?tab=repositories }{\color{BlueViolet}{GitHub}}.
+
+    \resumeSubHeadingListEnd
+
+
+% 
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Community \& Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Presedient}{November 2020 – Present}
+      {Coding Club IKGPTU Mohali }{Mohali, Punjab}
+      \resumeItemListStart
+        \resumeItem{Organised Hackathons and Quiz Contests}
+        % \resumeItem{Job description/Award/Achievement 2}
+        % \resumeItem{Job description/Award/Achievement 3}
+      \resumeItemListEnd
+
+      \vspace{0.9em}
+    \resumeSubheading
+      {Student Co-ordinator}{May 2021 – Present}
+      {Training and Placement Cell IKGPTU Mohali}{Mohali, Punjab}
+      \resumeItemListStart
+        \resumeItem{Co-ordinated with placement cell in campus placement.}
+        % \resumeItem{Job description/Award/Achievement 2}
+        % \resumeItem{Job description/Award/Achievement 3}
+      \resumeItemListEnd
+
+      \vspace{0.9em}
+
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, HTML, CSS} \\
+     \textbf{Frameworks}{: Django} \\
+    %  \textbf{Frameworks}{: Flutter, Django, React} \\
+    %  TensorFlow
+     \textbf{Developer Tools}{: VS Code, AWS, Github, Git} \\
+    %  \textbf{Libraries}{: Numpy, PyAutoGui, MuPDF} \\  Anaconda,Android Studio
+     \textbf{Applications}{: VMware, Microsoft Office, Adobe Photoshop}
+    }}
+ \end{itemize}
+
+%  
+
+%-----------Certifications -----------
+\section{Certifications }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Fundamentals — Duke University }{ (\href{https://SineshX.github.io}{\color{BlueViolet}{Coursera}}) } \\
+
+     \textbf{AI For Everyone —  DeepLearnig.Ai}{ (\href{https://SineshX.github.io}{\color{BlueViolet}{Coursera}})} \\
+    %  \textbf{Libraries}{: Numpy, PyAutoGui, MuPDF} \\
+     \textbf{Learning Python — Joe Marini}{ (\href{https://SineshX.github.io}{\color{BlueViolet}{Linkedin}})}
+    }}
+ \end{itemize}
+
+
+% 
+
+%-------------------------------------------
+\end{document}
